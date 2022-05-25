@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View />
+  <TextInput
+    onChangeText={[Function]}
+    placeholder="Search..."
+    placeholderTextColor="#a3a3a3"
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderWidth": 1,
+        "color": "black",
+        "fontSize": 24,
+        "height": 50,
+        "margin": 12,
+        "padding": 10,
+        "width": "90%",
+      }
+    }
+    value=""
+  />
+  <View
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Text>
+      +
+    </Text>
+  </View>
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    data={
+      Array [
+        "Milk",
+        "Coffee",
+        "Oranges",
+        "Bread",
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 25,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Milk
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#8E8E8E",
+              "flex": 1,
+              "height": 0.5,
+              "marginBottom": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 25,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Coffee
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#8E8E8E",
+              "flex": 1,
+              "height": 0.5,
+              "marginBottom": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 25,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Oranges
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#8E8E8E",
+              "flex": 1,
+              "height": 0.5,
+              "marginBottom": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 25,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Bread
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 0,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;

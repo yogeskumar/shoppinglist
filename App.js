@@ -30,7 +30,7 @@ const App = () => {
           onChangeText={(e) => setSearchTerm(e)}
         />
         <TouchableOpacity
-          disabled={searchTerm.length === 0 && filteredItems.length > 0}
+          disabled={!(searchTerm.length > 0 && filteredItems.length === 0)}
           onPress={addItem}
           style={styles.button}
         ><Text style={styles.buttonText}>+</Text></TouchableOpacity></View>
